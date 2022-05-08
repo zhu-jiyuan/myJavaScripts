@@ -1,7 +1,10 @@
 
 if($request.url.indexOf("student"&&"course")!=1){
     getCookie("移动教学工", "htuMove");
-    console.log($request.body);
+    console.log($request.method);
+    console.log($request.scheme);
+    console.log($request.path);
+    console.log($request.headers);
 }
 
 
