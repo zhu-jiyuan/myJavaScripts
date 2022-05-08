@@ -5,6 +5,8 @@ if($request.url.indexOf("student"&&"course")!=1){
     console.log($request.scheme);
     console.log($request.path);
     console.log($request.headers);
+    console.log($request.headers.body);
+    console.log($request.headers.Cookie);
 }
 
 
