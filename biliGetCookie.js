@@ -1,7 +1,7 @@
 
 
 
-if($request.url.indexOf("DoSign")!=1){
+if($request.url.indexOf("doSign")!=1){
     getCookie("BiliBili", "biliCookie");
 }
 
